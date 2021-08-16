@@ -9,3 +9,5 @@ uses data binding with MVVM architecture pattern
 1- convert layout to data binding   
 2- create a new variable it is type is view model  
 3- access view model mutablelivedata inside the text view  
+4- assign view model variable to binding  
+5- Specify the current activity as the lifecycle owner  
