@@ -11,3 +11,6 @@ uses data binding with MVVM architecture pattern
 3- access view model mutablelivedata inside the text view  
 4- assign view model variable to binding  
 5- Specify the current activity as the lifecycle owner  
+- Data binding inside xml file replaces setOnClickListener()  
+1- add onClick attribute to the desired button  
+2- @{() -> viewModel.methodName()}  
